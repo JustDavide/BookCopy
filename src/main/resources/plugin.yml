@@ -4,10 +4,9 @@ main: me.dovide.bookcopy.CopyMain
 api-version: 1.17
 prefix: Book
 authors: [ Dovide ]
-description: Plugin per copiare i libri
-website: www.outlawsrp.net
+description: Plugin to copy books
 commands:
-  stampante:
-    description: Copia il tuo libro
+  copybook:
+    description: Copy Your Book
   copyadmin:
     aliases: [ ca ]

@@ -20,20 +20,20 @@ public final class CopyMain extends JavaPlugin {
         plugin = this;
 
         // Start Mex
-        getLogger().info("BookCopy abilitato con successo");
+        getLogger().info("BookCopy by Dovide | 2.0");
 
         // Config
         config = createConfig("config.yml");
 
         // Commands
-        getCommand("stampante").setExecutor(new Copy());
+        getCommand("copybook").setExecutor(new Copy());
         getCommand("copyadmin").setExecutor(new CopyAdmin());
 
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("BookCopy disabilitato con successo");
+        getLogger().info("BookCopy by Dovide | 2.0");
     }
 
     public static CopyMain getInstance() {

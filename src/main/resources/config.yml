@@ -1,20 +1,20 @@
-copy:   # Comando principale
-  perm: outcopy.copybook  # Permesso per fotocopiare
-  usage: "&cUsa: &7/stampante"
-  hold: "&cDevi tenere in mano il libro da stampare"
-  noperm: "&cNon hai abbastanza permessi per stampare libri"
-  success: "&aLibro fotocopiato"
-  amount: 1   # Quante copie darà al player
-  actionbar: "&aSto stampando il tuo libro..."
-  delay: 5  # In quanti secondi si stampa il libro (( in secondi ))
+copy:   # Main Command
+  perm: copybook.use
+  usage: "&cUse: &7/stampante"
+  hold: "&cYou have to hold a book"
+  noperm: "&cYou Don't have enough perms to copy books"
+  success: "&aBook Copied"
+  amount: 1   # How many copies
+  actionbar: "&aCopying your book..."
+  delay: 5  # Time Delay (( In Seconds ))
 
 
-item-allow:  # Item che si possono fotocopiare (( Suggerisco di lasciarli così ovviamente ))
+item-allow:  # Item that can be copied
   item1: WRITABLE_BOOK
   item2: WRITTEN_BOOK
 
-admin:   # Comando per reloddare il config
-  perm: outcopy.admin
-  usage: "&cUsa: &7/ca reload"
-  reload: "&aConfig ricaricato con successo"
-  noperm: "&cNon hai abbastanza permessi per eseguire questo comando"
+admin:   # Reload Command
+  perm: copybook.admin
+  usage: "&cUse: &7/ca reload"
+  reload: "&aConfig Reloaded with success"
+  noperm: "&cYou don't have enough perms to use this command"
