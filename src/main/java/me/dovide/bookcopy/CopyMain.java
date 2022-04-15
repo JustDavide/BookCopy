@@ -20,7 +20,7 @@ public final class CopyMain extends JavaPlugin {
         plugin = this;
 
         // Start Mex
-        getLogger().info("BookCopy by Dovide | 2.0");
+        getLogger().info("BookCopy by Dovide | 1.0");
 
         // Config
         config = createConfig("config.yml");
@@ -33,7 +33,7 @@ public final class CopyMain extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("BookCopy by Dovide | 2.0");
+        getLogger().info("BookCopy by Dovide | 1.0");
     }
 
     public static CopyMain getInstance() {
