@@ -39,7 +39,7 @@ public class CopyAdmin implements TabExecutor {
         }
 
         if (args[0].equalsIgnoreCase("reload")) {
-            main.reloadCustomConfig();
+            CopyMain.getInstance().reloadCustomConfig();
             player.sendMessage(reload);
         }
 
